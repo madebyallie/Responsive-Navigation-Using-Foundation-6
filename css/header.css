@@ -1,0 +1,100 @@
+.header {
+	height: 4rem;
+	background-color: #1976D2;
+	font-family: 'Roboto';
+}
+
+
+@media (min-width: 39.9375em) {
+
+	.site-name {
+		float: left;
+	}
+
+	.site-name h1  {
+		color: white;
+		font-size: 1.6rem;
+		line-height: 4rem;
+		font-family: 'Roboto';
+		font-weight: 400;
+	}
+	
+	.navigation {
+		float: right;
+	}
+
+	.navigation ul li{
+		height: 4rem;
+		line-height: 4rem;
+	}
+
+	.nav a {
+		color: white;
+	}
+
+	.nav a:visited {
+		color: white;
+	}
+
+}
+
+
+@media (max-width: 39.9375em) {
+
+	.header {
+		height: 5.8rem;
+	}
+
+	.site-name h1  {
+		text-align: center;
+		color: white;
+		padding-top: 0.4rem;
+		font-size: 1.6rem;
+		font-family: 'Roboto';
+		font-weight: 400;
+	}
+
+	.nav {
+		background-color: #1976D2;
+		text-align: center;
+		padding-bottom: 1rem;
+		margin-top: 0.4rem;
+		margin-left: -0.6rem;
+		margin-right: -0.6rem;		
+	}
+
+	.nav a {
+		color: white;
+	}
+
+	.nav a:visited {
+		color: white;
+	}
+
+	.nav a:hover {
+		color: white;
+	}
+
+	.nav a:active {
+		color: white;
+	}
+
+	.menu-trigger {
+		background-color: #1976D2;
+		font-size: 1.4rem;
+		color: white;
+		cursor: pointer;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	.nav-expanded {
+		display: block;
+	}
+}
+
+#main-content {
+	padding-top: 1rem;
+}
